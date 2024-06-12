@@ -1,0 +1,83 @@
+
+[>>>] Packet Sniffer initialized. Waiting for incoming data. Press Ctrl-C to abort...
+
+[>] Frame #1 at 12:11:17:
+    [+] Ethernet ......98:2c:bc:f3:a7:87 -> b8:dd:71:93:a5:5c
+          Interface: all
+          Frame Length: 117
+          Epoch Time: 1714545677.3507092
+    [+] IPv4 ................192.168.1.5 -> 162.159.133.234
+          DSCP: 0
+          Total Length: 103
+          ID: 28029
+          Flags: Don't fragment (DF)
+          TTL: 64
+          Protocol: TCP
+          Header Checksum: 0xe2dc
+    [+] TCP .......................42636 -> 443            
+          Sequence Number: 1229663648
+          ACK Number: 3183349962
+          Flags: 0x018 > PSH ACK
+          Window Size: 244
+          Checksum: 0xea90
+          Urgent Pointer: 0
+[>] Frame #2 at 12:11:17:
+    [+] Ethernet ......b8:dd:71:93:a5:5c -> 98:2c:bc:f3:a7:87
+          Interface: all
+          Frame Length: 66
+          Epoch Time: 1714545677.3695655
+    [+] IPv4 ............162.159.133.234 -> 192.168.1.5    
+          DSCP: 0
+          Total Length: 52
+          ID: 59725
+          Flags: Don't fragment (DF)
+          TTL: 55
+          Protocol: TCP
+          Header Checksum: 0x703f
+    [+] TCP .........................443 -> 42636          
+          Sequence Number: 3183349962
+          ACK Number: 1229663699
+          Flags: 0x010 > ACK
+          Window Size: 8
+          Checksum: 0x151b
+          Urgent Pointer: 0
+[>] Frame #3 at 12:11:17:
+    [+] Ethernet ......b8:dd:71:93:a5:5c -> 98:2c:bc:f3:a7:87
+          Interface: all
+          Frame Length: 100
+          Epoch Time: 1714545677.754667
+    [+] IPv4 ............162.159.133.234 -> 192.168.1.5    
+          DSCP: 0
+          Total Length: 86
+          ID: 59726
+          Flags: Don't fragment (DF)
+          TTL: 55
+          Protocol: TCP
+          Header Checksum: 0x701c
+    [+] TCP .........................443 -> 42636          
+          Sequence Number: 3183349962
+          ACK Number: 1229663699
+          Flags: 0x018 > PSH ACK
+          Window Size: 8
+          Checksum: 0x4aeb
+          Urgent Pointer: 0
+[>] Frame #4 at 12:11:17:
+    [+] Ethernet ......98:2c:bc:f3:a7:87 -> b8:dd:71:93:a5:5c
+          Interface: all
+          Frame Length: 66
+          Epoch Time: 1714545677.7548878
+    [+] IPv4 ................192.168.1.5 -> 162.159.133.234
+          DSCP: 0
+          Total Length: 52
+          ID: 28030
+          Flags: Don't fragment (DF)
+          TTL: 64
+          Protocol: TCP
+          Header Checksum: 0xe30e
+    [+] TCP .......................42636 -> 443            
+          Sequence Number: 1229663699
+          ACK Number: 3183349996
+          Flags: 0x010 > ACK
+          Window Size: 244
+          Checksum: 0xea5d
+          Urgent Pointer: 0
